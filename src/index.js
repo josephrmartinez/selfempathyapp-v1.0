@@ -31,12 +31,12 @@ export function loadListNav(headerText){
     navHead.innerHTML = ''
     navHead.classList.add('subsection')
     let searchArea = document.createElement('img');
-    searchArea.src = '/Users/admin/Desktop/programming/restaurant/restaurantpage/src/icons/search.svg'
+    searchArea.src = '/Users/admin/Desktop/programming/selfempathyapp/src/icons/search.svg'
     const sectionTitle = document.createElement('div');
     sectionTitle.classList.add('sectionTitle')
     sectionTitle.innerText = headerText
     let homeButton = document.createElement('img')
-    homeButton.src = "/Users/admin/Desktop/programming/restaurant/restaurantpage/src/icons/house.svg"
+    homeButton.src = "/Users/admin/Desktop/programming/selfempathyapp/src/icons/house.svg"
     homeButton.addEventListener('click', loadHome)
     navHead.appendChild(searchArea);
     navHead.appendChild(sectionTitle);
@@ -75,13 +75,13 @@ export function loadEmpathyNav(word, backFunction){
     navHead.innerHTML = ''
     navHead.classList.add('subsection')
     let backButton = document.createElement('img');
-    backButton.src = "/Users/admin/Desktop/programming/restaurant/restaurantpage/src/icons/arrow-left-short.svg"
+    backButton.src = "/Users/admin/Desktop/programming/selfempathyapp/src/icons/arrow-left-short.svg"
     backButton.addEventListener('click', backFunction);
     const sectionTitle = document.createElement('div');
     sectionTitle.classList.add('sectionTitle')
     sectionTitle.innerText = word
     let homeButton = document.createElement('img')
-    homeButton.src = "/Users/admin/Desktop/programming/restaurant/restaurantpage/src/icons/house.svg"
+    homeButton.src = "/Users/admin/Desktop/programming/selfempathyapp/src/icons/house.svg"
     homeButton.addEventListener('click', loadHome)
     navHead.appendChild(backButton);
     navHead.appendChild(sectionTitle);

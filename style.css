@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Laila&family=Open+Sans&display=swap');
 
+:root{
+    --complaint-color: #043D66;
+    --feeling-color: #699F96;
+    --underlyingFeeling-color: #935A5A;
+    --need-color: #F4D462;
+}
+
+
 header{
     width: 100vw;
     height: 70px;
@@ -49,6 +57,10 @@ header nav div.searchArea{
     border-radius: 25px; 
 }
 
+img{
+    cursor: pointer;
+}
+
 
 
 .introText{
@@ -66,6 +78,7 @@ header nav div.searchArea{
     color: #666666;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
 }
+
 
 .sectionButton{
     width: 205px;
@@ -122,6 +135,8 @@ button{
     width: 100vw;
 }
 
+/* PAGE 2: FEELING AND COMPLAINT LISTS */
+
 .rectangle{
     width: 216px;
     height: 63px;
@@ -139,22 +154,69 @@ button{
     color: #FEFEFE;
     margin-top: 15px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .rectangle.complaint {
-    background: #043D66;
+    background: var(--complaint-color)
 }
 
 .rectangle.feeling {
-    background: #699F96;
+    background: var(--feeling-color);
 }
 
 
+/* PAGE 3: EMPATHY SECTIONS */
 
+.empathySectionHeader{
+    font-family: 'Open Sans';
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #535353;
+}
 
+.empathySectionDivGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 305px;
+    height: 157px;
+    margin-bottom: 15px;
+}
 
+.empathyGuessDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 146px;
+    height: 43px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FEFEFE;
 
+}
 
+.empathyGuessDiv.initialFeeling{
+    background: var(--feeling-color);
+}
+
+.empathyGuessDiv.underlyingFeeling{
+    background: var(--underlyingFeeling-color);
+}
+
+.empathyGuessDiv.need{
+    background: var(--need-color)
+}
 
 
 

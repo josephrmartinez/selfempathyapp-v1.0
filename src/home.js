@@ -6,6 +6,7 @@ export function loadHome() {
     loadContainer();
 }
 
+// LOAD NAV BAR STYLED ONLY FOR HOME MODULE
 function loadNav(){
     const navHead = document.getElementById('navhead')
     navHead.innerHTML = ''
@@ -18,6 +19,7 @@ function loadNav(){
     return navHead;
 }
 
+// LOAD CONTAINER STYLED ONLY FOR HOME MODULE
 function loadContainer(){
     const container = document.getElementById('container');
     // clear container

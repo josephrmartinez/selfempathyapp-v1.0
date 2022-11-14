@@ -31,12 +31,12 @@ export function loadListNav(headerText){
     navHead.innerHTML = ''
     navHead.classList.add('subsection')
     let searchArea = document.createElement('img');
-    searchArea.src = 'src/icons/search.svg'
+    searchArea.src = './icons/search.svg'
     const sectionTitle = document.createElement('div');
     sectionTitle.classList.add('sectionTitle')
     sectionTitle.innerText = headerText
     let homeButton = document.createElement('img')
-    homeButton.src = "src/icons/house.svg"
+    homeButton.src = "./icons/house.svg"
     homeButton.addEventListener('click', loadHome)
     navHead.appendChild(searchArea);
     navHead.appendChild(sectionTitle);
@@ -75,13 +75,13 @@ export function loadEmpathyNav(word, backFunction){
     navHead.innerHTML = ''
     navHead.classList.add('subsection')
     let backButton = document.createElement('img');
-    backButton.src = "src/icons/arrow-left-short.svg"
+    backButton.src = "./icons/arrow-left-short.svg"
     backButton.addEventListener('click', backFunction);
     const sectionTitle = document.createElement('div');
     sectionTitle.classList.add('sectionTitle')
     sectionTitle.innerText = word
     let homeButton = document.createElement('img')
-    homeButton.src = "src/icons/house.svg"
+    homeButton.src = "./icons/house.svg"
     homeButton.addEventListener('click', loadHome)
     navHead.appendChild(backButton);
     navHead.appendChild(sectionTitle);

@@ -7,6 +7,10 @@
     --need-color: #F4D462;
 }
 
+#content{
+    display: flex;
+    justify-content: center;
+}
 
 header{
     width: 100vw;
@@ -21,8 +25,8 @@ header{
 }
 
 nav{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
     justify-content: center;
     margin-right: 0;
@@ -32,12 +36,13 @@ nav{
 
 nav.subsection {
     justify-content: space-between;
-    margin-left: -20px; 
 }
 
 
 header nav div.sectionTitle{
+    grid-column: 2 / 3;
     font-family: 'Open Sans';
+    text-align: center;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -50,6 +55,7 @@ header nav div.sectionTitle{
 
 header nav div.searchArea{
     box-sizing: border-box;
+    grid-column: 1 / 2;
     width: 100px;
     height: 28px;
     border: 0.5px solid #C8C8C8;
@@ -59,6 +65,8 @@ header nav div.searchArea{
 
 img{
     cursor: pointer;
+    justify-self: center;
+    align-self: center;
 }
 
 
@@ -120,11 +128,12 @@ img{
 
 button{
     box-sizing: border-box;
-    width: 80px;
+    width: 120px;
     height: 28px;
     border: 0.5px solid #C8C8C8;
     filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.25));
-    border-radius: 25px; 
+    border-radius: 25px;
+    color: #808080;
 }
 
 .container{
@@ -132,7 +141,7 @@ button{
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
-    width: 100vw;
+    /* height: calc(100vw - 80px); */
 }
 
 /* PAGE 2: FEELING AND COMPLAINT LISTS */
@@ -218,6 +227,9 @@ button{
     background: var(--need-color)
 }
 
-
+.empathyGuessDiv.selected{
+    box-shadow: inset 1px 1px 5px #5a5a5a;
+    border: 1px solid #5a5a5a;
+}
 
 

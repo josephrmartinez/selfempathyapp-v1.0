@@ -109,6 +109,7 @@ export function empathySectionDivGrid(array, divClass){
         const empathyGuessDiv = document.createElement('div');
         empathyGuessDiv.classList.add('empathyGuessDiv')
         empathyGuessDiv.classList.add(`${divClass}`)
+        empathyGuessDiv.addEventListener('click', () => {empathyGuessDiv.classList.toggle('selected')});
         empathyGuessDiv.innerText = array[i];
         gridDiv.appendChild(empathyGuessDiv)
     };

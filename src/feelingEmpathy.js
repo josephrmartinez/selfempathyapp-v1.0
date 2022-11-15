@@ -22,5 +22,8 @@ function loadContainer(){
     container.appendChild(empathySectionHeader("UNDERLYING FEELINGS"))
     container.appendChild(empathySectionDivGrid(['sad', 'resentful', 'hurt', 'triggered', 'frustrated', 'defensive'], 'underlyingFeeling'))
     container.appendChild(empathySectionHeader("NEEDS"))
-    container.appendChild(empathySectionDivGrid(['to be seen', 'resonance', 'engagement', 'to matter', 'inclusion', 'mutuality'], 'need'))
+    container.appendChild(empathySectionDivGrid(['to be seen', 'resonance', 'engagement', 'to matter', 'inclusion', 'mutuality'], 'need'));
+    const completeButton = document.createElement('button')
+    completeButton.innerText = "I\'m complete"
+    container.appendChild(completeButton)
 }

@@ -11,11 +11,16 @@ function loadNav(){
     const navHead = document.getElementById('navhead')
     navHead.innerHTML = ''
     navHead.classList.remove('subsection')
+
     const sectionTitle = document.createElement('div');
     sectionTitle.classList.add('sectionTitle')
     sectionTitle.innerText = "self-empathy"
     navHead.appendChild(sectionTitle);
-
+    const infoButton = document.createElement('img');
+    infoButton.src = "./icons/info-circle.svg"
+    infoButton.addEventListener('click', openInfoPage)
+    navHead.appendChild(infoButton)
+    
     return navHead;
 }
 
@@ -60,4 +65,8 @@ function loadContainer(){
     container.appendChild(feelingSectionButton)
 
     return container;
+}
+
+function openInfoPage(){
+    alert("An online guide to support the self-empathy process.")
 }

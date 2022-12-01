@@ -112,12 +112,43 @@ export function empathySectionDivGrid(array, divClass){
         empathyGuessDiv.addEventListener('click', () => {empathyGuessDiv.classList.toggle('selected')});
         empathyGuessDiv.innerText = array[i];
         gridDiv.appendChild(empathyGuessDiv)
-    };
+    }
 
     return gridDiv
 }
 
 
+// RETURNS CAROUSEL OF DIVS USED ON PAGE 3
+export function empathySectionDivCarousel(array, divClass){
+    const gridCarousel = document.createElement('div');
+    gridCarousel.classList.add('empathySectionDivCarousel');
+    buildCarousel()
+
+    function buildCarousel() {
+        gridCarousel.innerHTML = '';
+        for (let i = 0; i < array.length; i++) {
+            const empathyGuessDivCarousel = document.createElement('div');
+            empathyGuessDivCarousel.classList.add('empathyGuessDivCarousel')
+            empathyGuessDivCarousel.classList.add(`${divClass}`)
+            empathyGuessDivCarousel.innerText = array[i];
+            gridCarousel.appendChild(empathyGuessDivCarousel)
+        }
+        const addGuess = document.createElement('div');
+        addGuess.classList.add('empathyGuessDivCarousel')
+        addGuess.classList.add(`${divClass}`)
+        addGuess.innerText = "+";
+        addGuess.addEventListener('click', e => {
+            let input = prompt("Use another term: ")
+            array.push(input)
+            buildCarousel()
+        })
+        gridCarousel.appendChild(addGuess)
+    }
+
+
+
+    return gridCarousel
+}
 
 
 

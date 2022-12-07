@@ -246,7 +246,7 @@ button:active{
     -webkit-overflow-scrolling: touch;
     width: 300px;
     /* apply border with fade? */
-    height: 130px;
+    height: 100px;
     margin-bottom: 40px;
     scroll-snap-type: x mandatory;
     column-gap: 20px;

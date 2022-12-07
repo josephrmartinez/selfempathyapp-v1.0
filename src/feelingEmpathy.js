@@ -1,23 +1,26 @@
 // import { loadHome } from "./home";
 import { loadEmpathyNav } from ".";
 import { empathySectionHeader } from ".";
-import { empathySectionDivGrid } from ".";
+import { empathySectionDivCarousel } from ".";
 import { loadFeelings } from "./feelings";
+import feelings from './feelings.json'
 
 
 export function loadFeelingEmpathy(word){
     loadEmpathyNav(word, loadFeelings)
-    loadContainer();
+    loadContainer(word);
     
 }
 
 
-function loadContainer(){
+function loadContainer(word){
     // CLEAR CONTAINER  
     const container = document.getElementById('container')
     container.innerHTML = ''
+    // LOAD UNDERLYING FEELINGS SECTION
     container.appendChild(empathySectionHeader("UNDERLYING FEELINGS"))
-    container.appendChild(empathySectionDivGrid(['sad', 'resentful', 'hurt', 'triggered', 'frustrated', 'defensive'], 'underlyingFeeling'))
+    container.appendChild(empathySectionDivCarousel(feelings[word]["underlyingFeelings"], 'underlyingFeeling'))
     container.appendChild(empathySectionHeader("NEEDS"))
-    container.appendChild(empathySectionDivGrid(['to be seen', 'resonance', 'engagement', 'to matter', 'inclusion', 'mutuality'], 'need'))
+    container.appendChild(empathySectionDivCarousel(feelings[word]["needs"], 'need'))
 }
+

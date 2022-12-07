@@ -1,0 +1,1009 @@
+{
+  "abandoned": {
+    "initialFeeling": "abandoned",
+    "underlyingFeelings": [
+      "terrified",
+      "hurt",
+      "bewildered",
+      "sad",
+      "frightened",
+      "lonely"
+    ],
+    "needs": [
+      "nurturing",
+      "connection",
+      "belonging",
+      "support",
+      "caring",
+      "strength"
+    ]
+  },
+  "abused": {
+    "initialFeeling": "abused",
+    "underlyingFeelings": [
+      "angry",
+      "frustrated",
+      "frightened",
+      "",
+      "",
+      ""
+    ],
+    "needs": [
+      "caring",
+      "nurturing",
+      "support",
+      "emotional well-being",
+      "physical well-being",
+      "consideration"
+    ]
+  },
+  "attacked": {
+    "initialFeeling": "attacked",
+    "underlyingFeelings": [
+      "scared",
+      "angry",
+      "defensive",
+      "resentful",
+      "",
+      ""
+    ],
+    "needs": [
+      "safety",
+      "inclusion",
+      "to be seen",
+      "trust",
+      "space",
+      ""
+    ]
+  },
+  "belittled": {
+    "initialFeeling": "belittled",
+    "underlyingFeelings": [
+      "angry",
+      "frustrated",
+      "tense",
+      "distressed",
+      "",
+      ""
+    ],
+    "needs": [
+      "respect",
+      "autonomy",
+      "to be seen",
+      "acknowledgement",
+      "appreciation",
+      ""
+    ]
+  },
+  "betrayed": {
+    "initialFeeling": "betrayed",
+    "underlyingFeelings": [
+      "angry",
+      "hurt",
+      "disappointed",
+      "enraged",
+      "",
+      ""
+    ],
+    "needs": [
+      "trust",
+      "dependability",
+      "honesty",
+      "self-connection",
+      "commitment",
+      "clarity"
+    ]
+  },
+  "blamed": {
+    "initialFeeling": "blamed",
+    "underlyingFeelings": [
+      "angry",
+      "scared",
+      "confused",
+      "antagonistic",
+      "bewildered",
+      "hurt"
+    ],
+    "needs": [
+      "self-expression",
+      "inclusion",
+      "to be heard",
+      "to be seen",
+      "space",
+      ""
+    ]
+  },
+  "boxed in": {
+    "initialFeeling": "boxed in",
+    "underlyingFeelings": [
+      "angry",
+      "thwarted",
+      "scared",
+      "anxious",
+      "",
+      ""
+    ],
+    "needs": [
+      "autonomy",
+      "choice",
+      "freedom",
+      "",
+      "",
+      ""
+    ]
+  },
+  "bullied": {
+    "initialFeeling": "bullied",
+    "underlyingFeelings": [
+      "angry",
+      "scared",
+      "pressured",
+      "",
+      "",
+      ""
+    ],
+    "needs": [
+      "autonomy",
+      "choice",
+      "safety",
+      "consideration",
+      "",
+      ""
+    ]
+  },
+  "cheated": {
+    "initialFeeling": "cheated",
+    "underlyingFeelings": [
+      "angry",
+      "resentful",
+      "hurt",
+      "",
+      "",
+      ""
+    ],
+    "needs": [
+      "honesty",
+      "fairness",
+      "justice",
+      "trust",
+      "reliability",
+      ""
+    ]
+  },
+  "coerced": {
+    "initialFeeling": "coerced",
+    "underlyingFeelings": [
+      "angry",
+      "frustrated",
+      "frightened",
+      "thwarted",
+      "scared",
+      "sad"
+    ],
+    "needs": [
+      "autonomy",
+      "choice",
+      "freedom",
+      "participation",
+      "",
+      ""
+    ]
+  },
+  "cornered": {
+    "initialFeeling": "cornered",
+    "underlyingFeelings": [
+      "angry",
+      "scared",
+      "anxious",
+      "thwarted",
+      "",
+      ""
+    ],
+    "needs": [
+      "autonomy",
+      "freedom",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "criticized": {
+    "initialFeeling": "criticized",
+    "underlyingFeelings": [
+      "in pain",
+      "scared",
+      "anxious",
+      "frustrated",
+      "humiliated",
+      "embarrassed"
+    ],
+    "needs": [
+      "understanding",
+      "acknowledgement",
+      "recognition",
+      "accountability",
+      "connection",
+      "self-connection"
+    ]
+  },
+  "discounted": {
+    "initialFeeling": "discounted",
+    "underlyingFeelings": [
+      "angry",
+      "hurt",
+      "embarrassed",
+      "frustrated",
+      "",
+      ""
+    ],
+    "needs": [
+      "acknowledgement",
+      "inclusion",
+      "recognition",
+      "respect",
+      "to matter",
+      ""
+    ]
+  },
+  "diminished": {
+    "initialFeeling": "diminished",
+    "underlyingFeelings": [
+      "angry",
+      "hurt",
+      "embarrassed",
+      "frustrated",
+      "",
+      ""
+    ],
+    "needs": [
+      "acknowledgement",
+      "inclusion",
+      "recognition",
+      "respect",
+      "to matter",
+      ""
+    ]
+  },
+  "disliked": {
+    "initialFeeling": "disliked",
+    "underlyingFeelings": [
+      "sad",
+      "lonely",
+      "hurt",
+      "longing",
+      "",
+      ""
+    ],
+    "needs": [
+      "appreciation",
+      "connection",
+      "understanding",
+      "to be seen",
+      "friendship",
+      "inclusion"
+    ]
+  },
+  "distrusted": {
+    "initialFeeling": "distrusted",
+    "underlyingFeelings": [
+      "sad",
+      "frustrated",
+      "hurt",
+      "",
+      "",
+      ""
+    ],
+    "needs": [
+      "trust",
+      "honesty",
+      "understanding",
+      "",
+      "",
+      ""
+    ]
+  },
+  "dumped on": {
+    "initialFeeling": "dumped on",
+    "underlyingFeelings": [
+      "angry",
+      "overwhelmed",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "needs": [
+      "respect",
+      "consideration",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "harassed": {
+    "initialFeeling": "harassed",
+    "underlyingFeelings": [
+      "angry",
+      "frustrated",
+      "pressured",
+      "frightened",
+      "",
+      ""
+    ],
+    "needs": [
+      "respect",
+      "space",
+      "consideration",
+      "peace",
+      "",
+      ""
+    ]
+  },
+  "ignored": {
+    "initialFeeling": "ignored",
+    "underlyingFeelings": [
+      "lonely",
+      "sad",
+      "scared",
+      "hurt",
+      "embarrassed",
+      ""
+    ],
+    "needs": [
+      "belonging",
+      "connection",
+      "inclusion",
+      "community",
+      "participation",
+      ""
+    ]
+  },
+  "insulted": {
+    "initialFeeling": "insulted",
+    "underlyingFeelings": [
+      "angry",
+      "embarrased",
+      "hurt",
+      "",
+      "",
+      ""
+    ],
+    "needs": [
+      "respect",
+      "consideration",
+      "to be seen",
+      "recognition",
+      "",
+      ""
+    ]
+  },
+  "interrupted": {
+    "initialFeeling": "interrupted",
+    "underlyingFeelings": [
+      "angry",
+      "frustrated",
+      "resentful",
+      "hurt",
+      "anxious",
+      "agitated"
+    ],
+    "needs": [
+      "respect",
+      "to be heard",
+      "consideration",
+      "contribution",
+      "space",
+      "participation"
+    ]
+  },
+  "intimidated": {
+    "initialFeeling": "intimidated",
+    "underlyingFeelings": [
+      "scared",
+      "anxious",
+      "depleted",
+      "regretful",
+      "contempt",
+      "nervous"
+    ],
+    "needs": [
+      "safety",
+      "equality",
+      "empowerment",
+      "sense of self",
+      "meaning",
+      "peace"
+    ]
+  },
+  "invalidated": {
+    "initialFeeling": "invalidated",
+    "underlyingFeelings": [
+      "angry",
+      "hurt",
+      "resentful",
+      "alienated",
+      "contempt",
+      "discouraged"
+    ],
+    "needs": [
+      "appreciation",
+      "respect",
+      "to be seen",
+      "recognition",
+      "contribution",
+      "self-connection"
+    ]
+  },
+  "invisible": {
+    "initialFeeling": "invisible",
+    "underlyingFeelings": [
+      "angry",
+      "sad",
+      "lonely",
+      "scared",
+      "mistrustful",
+      "lonely"
+    ],
+    "needs": [
+      "to be seen",
+      "to be heard",
+      "to matter",
+      "belonging",
+      "community",
+      "hope"
+    ]
+  },
+  "isolated": {
+    "initialFeeling": "isolated",
+    "underlyingFeelings": [
+      "lonely",
+      "afraid",
+      "scared",
+      "disconnected",
+      "indifferent",
+      "numb"
+    ],
+    "needs": [
+      "community",
+      "inclusion",
+      "belonging",
+      "contribution",
+      "aliveness",
+      "spontaneity"
+    ]
+  },
+  "left out": {
+    "initialFeeling": "left out",
+    "underlyingFeelings": [
+      "sad",
+      "lonely",
+      "anxious",
+      "perplexed",
+      "hurt",
+      "guarded"
+    ],
+    "needs": [
+      "inclusion",
+      "to matter",
+      "purpose",
+      "contribution",
+      "partnership",
+      "sharing"
+    ]
+  },
+  "let down": {
+    "initialFeeling": "let down",
+    "underlyingFeelings": [
+      "sad",
+      "disappointed",
+      "frightened",
+      "distracted",
+      "burnt out",
+      "weary"
+    ],
+    "needs": [
+      "structure",
+      "aliveness",
+      "self-connection",
+      "purpose",
+      "self-care",
+      "creativity"
+    ]
+  },
+  "manipulated": {
+    "initialFeeling": "manipulated",
+    "underlyingFeelings": [
+      "angry",
+      "scared",
+      "powerless",
+      "thwarted",
+      "frustrated",
+      "mistrustful"
+    ],
+    "needs": [
+      "autonomy",
+      "empowerment",
+      "trust",
+      "equality",
+      "freedom",
+      "transparency"
+    ]
+  },
+  "misunderstood": {
+    "initialFeeling": "misunderstood",
+    "underlyingFeelings": [
+      "embarrassed",
+      "flustered",
+      "melancholy",
+      "distressed",
+      "hesitant",
+      "low"
+    ],
+    "needs": [
+      "to be heard",
+      "self-connection",
+      "clarity",
+      "confidence",
+      "sense of self",
+      "aliveness"
+    ]
+  },
+  "neglected": {
+    "initialFeeling": "neglected",
+    "underlyingFeelings": [
+      "lonely",
+      "scared",
+      "embarrassed",
+      "disconnected",
+      "removed",
+      "apprehensive"
+    ],
+    "needs": [
+      "nurturing",
+      "closeness",
+      "self-connection",
+      "confidence",
+      "aliveness",
+      "acceptance"
+    ]
+  },
+  "overpowered": {
+    "initialFeeling": "overpowered",
+    "underlyingFeelings": [
+      "impotent",
+      "helpless",
+      "confused",
+      "weary",
+      "burnt out",
+      "exhausted"
+    ],
+    "needs": [
+      "self-care",
+      "aliveness",
+      "rest",
+      "sense of self",
+      "to be seen",
+      "support"
+    ]
+  },
+  "overworked": {
+    "initialFeeling": "overworked",
+    "underlyingFeelings": [
+      "angry",
+      "tired",
+      "frustrated",
+      "irritated",
+      "triggered",
+      "low"
+    ],
+    "needs": [
+      "aliveness",
+      "purpose",
+      "hope",
+      "self-connection",
+      "peace",
+      "meaning"
+    ]
+  },
+  "patronized": {
+    "initialFeeling": "patronized",
+    "underlyingFeelings": [
+      "resentful",
+      "frustrated",
+      "flustered",
+      "triggered",
+      "mistrustful",
+      "annoyed"
+    ],
+    "needs": [
+      "mutuality",
+      "trust",
+      "harmony",
+      "knowing",
+      "partnership",
+      "to be seen"
+    ]
+  },
+  "pressured": {
+    "initialFeeling": "pressured",
+    "underlyingFeelings": [
+      "anxious",
+      "resentful",
+      "overwhelmed",
+      "irritated",
+      "burnt out",
+      "mistrustful"
+    ],
+    "needs": [
+      "autonomy",
+      "clarity",
+      "space",
+      "self-connection",
+      "knowing",
+      "peace of mind"
+    ]
+  },
+  "provoked": {
+    "initialFeeling": "provoked",
+    "underlyingFeelings": [
+      "angry",
+      "frustrated",
+      "hostile",
+      "antagonistic",
+      "resentful",
+      "triggered"
+    ],
+    "needs": [
+      "respect",
+      "to be seen",
+      "connection",
+      "support",
+      "consideration",
+      "self-connection"
+    ]
+  },
+  "put down": {
+    "initialFeeling": "put down",
+    "underlyingFeelings": [
+      "angry",
+      "resentful",
+      "distressed",
+      "distracted",
+      "hurt",
+      "guarded"
+    ],
+    "needs": [
+      "respect",
+      "to be seen",
+      "to matter",
+      "mutuality",
+      "compassion",
+      "acceptance"
+    ]
+  },
+  "rejected": {
+    "initialFeeling": "rejected",
+    "underlyingFeelings": [
+      "hurt",
+      "scared",
+      "angry",
+      "defiant",
+      "burnt out",
+      "worried"
+    ],
+    "needs": [
+      "rest",
+      "self-care",
+      "self-connection",
+      "meaning",
+      "hope",
+      "aliveness"
+    ]
+  },
+  "ripped off": {
+    "initialFeeling": "ripped off",
+    "underlyingFeelings": [
+      "angry",
+      "resentful",
+      "disappointed",
+      "defiant",
+      "frustrated",
+      "annoyed"
+    ],
+    "needs": [
+      "consideration",
+      "justice",
+      "peace",
+      "structure",
+      "understanding",
+      "acceptance"
+    ]
+  },
+  "smothered": {
+    "initialFeeling": "smothered",
+    "underlyingFeelings": [
+      "frustrated",
+      "anxious",
+      "annoyed",
+      "perplexed",
+      "removed",
+      "weary"
+    ],
+    "needs": [
+      "space",
+      "freedom",
+      "connection",
+      "mutuality",
+      "aliveness",
+      "to be seen"
+    ]
+  },
+  "taken for granted": {
+    "initialFeeling": "taken for granted",
+    "underlyingFeelings": [
+      "angry",
+      "sad",
+      "hurt",
+      "disappointed",
+      "burnt out",
+      "weary"
+    ],
+    "needs": [
+      "appreciation",
+      "connection",
+      "recognition",
+      "rest",
+      "aliveness",
+      "purpose"
+    ]
+  },
+  "threatened": {
+    "initialFeeling": "threatened",
+    "underlyingFeelings": [
+      "scared",
+      "frightened",
+      "alarmed",
+      "agitated",
+      "defiant",
+      "terrified"
+    ],
+    "needs": [
+      "autonomy",
+      "safety",
+      "respect",
+      "compassion",
+      "mutuality",
+      "to be seen"
+    ]
+  },
+  "trampled": {
+    "initialFeeling": "trampled",
+    "underlyingFeelings": [
+      "angry",
+      "frustrated",
+      "overwhelmed",
+      "burnt out",
+      "hurt",
+      "powerless"
+    ],
+    "needs": [
+      "respect",
+      "connection",
+      "support",
+      "to be seen",
+      "equality",
+      "to matter"
+    ]
+  },
+  "tricked": {
+    "initialFeeling": "tricked",
+    "underlyingFeelings": [
+      "angry",
+      "embarrased",
+      "resentful",
+      "weary",
+      "hurt",
+      "mistrustful"
+    ],
+    "needs": [
+      "integrity",
+      "trust",
+      "honesty",
+      "acceptance",
+      "peace",
+      "dignity"
+    ]
+  },
+  "unappreciated": {
+    "initialFeeling": "unappreciated",
+    "underlyingFeelings": [
+      "embarrassed",
+      "flustered",
+      "melancholy",
+      "distressed",
+      "hesitant",
+      "low"
+    ],
+    "needs": [
+      "to be heard",
+      "self-connection",
+      "clarity",
+      "confidence",
+      "sense of self",
+      "aliveness"
+    ]
+  },
+  "unheard": {
+    "initialFeeling": "unheard",
+    "underlyingFeelings": [
+      "lonely",
+      "scared",
+      "embarrassed",
+      "disconnected",
+      "removed",
+      "apprehensive"
+    ],
+    "needs": [
+      "nurturing",
+      "closeness",
+      "self-connection",
+      "confidence",
+      "aliveness",
+      "acceptance"
+    ]
+  },
+  "unloved": {
+    "initialFeeling": "unloved",
+    "underlyingFeelings": [
+      "impotent",
+      "helpless",
+      "confused",
+      "weary",
+      "burnt out",
+      "exhausted"
+    ],
+    "needs": [
+      "self-care",
+      "aliveness",
+      "rest",
+      "sense of self",
+      "to be seen",
+      "support"
+    ]
+  },
+  "unseen": {
+    "initialFeeling": "unseen",
+    "underlyingFeelings": [
+      "angry",
+      "tired",
+      "frustrated",
+      "irritated",
+      "triggered",
+      "low"
+    ],
+    "needs": [
+      "aliveness",
+      "purpose",
+      "hope",
+      "self-connection",
+      "peace",
+      "meaning"
+    ]
+  },
+  "unsupported": {
+    "initialFeeling": "unsupported",
+    "underlyingFeelings": [
+      "resentful",
+      "frustrated",
+      "flustered",
+      "triggered",
+      "mistrustful",
+      "annoyed"
+    ],
+    "needs": [
+      "mutuality",
+      "trust",
+      "harmony",
+      "knowing",
+      "partnership",
+      "to be seen"
+    ]
+  },
+  "unwanted": {
+    "initialFeeling": "unwanted",
+    "underlyingFeelings": [
+      "anxious",
+      "resentful",
+      "overwhelmed",
+      "irritated",
+      "burnt out",
+      "mistrustful"
+    ],
+    "needs": [
+      "autonomy",
+      "clarity",
+      "space",
+      "self-connection",
+      "knowing",
+      "peace of mind"
+    ]
+  },
+  "used": {
+    "initialFeeling": "used",
+    "underlyingFeelings": [
+      "angry",
+      "frustrated",
+      "hostile",
+      "antagonistic",
+      "resentful",
+      "triggered"
+    ],
+    "needs": [
+      "respect",
+      "to be seen",
+      "connection",
+      "support",
+      "consideration",
+      "self-connection"
+    ]
+  },
+  "victimized": {
+    "initialFeeling": "victimized",
+    "underlyingFeelings": [
+      "angry",
+      "resentful",
+      "distressed",
+      "distracted",
+      "hurt",
+      "guarded"
+    ],
+    "needs": [
+      "respect",
+      "to be seen",
+      "to matter",
+      "mutuality",
+      "compassion",
+      "acceptance"
+    ]
+  },
+  "violated": {
+    "initialFeeling": "violated",
+    "underlyingFeelings": [
+      "hurt",
+      "scared",
+      "angry",
+      "defiant",
+      "burnt out",
+      "worried"
+    ],
+    "needs": [
+      "rest",
+      "self-care",
+      "self-connection",
+      "meaning",
+      "hope",
+      "aliveness"
+    ]
+  },
+  "wronged": {
+    "initialFeeling": "wronged",
+    "underlyingFeelings": [
+      "angry",
+      "resentful",
+      "disappointed",
+      "defiant",
+      "frustrated",
+      "annoyed"
+    ],
+    "needs": [
+      "consideration",
+      "justice",
+      "peace",
+      "structure",
+      "understanding",
+      "acceptance"
+    ]
+  }
+}

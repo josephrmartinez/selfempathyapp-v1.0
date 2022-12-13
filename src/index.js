@@ -2,9 +2,6 @@ import { loadHome } from "./home";
 
 
 
-
-
-
 // PAGE LOAD FUNCTION CREATES PAGE STRUCTURE FOR DOM MANIPULATION BY OTHER MODULES
 function pageLoad() {
     const content = document.getElementById('content');

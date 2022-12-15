@@ -24,9 +24,9 @@
       "angry",
       "frustrated",
       "frightened",
-      "",
-      "",
-      ""
+      "numb",
+      "contempt",
+      "nervous"
     ],
     "needs": [
       "caring",
@@ -44,8 +44,8 @@
       "angry",
       "defensive",
       "resentful",
-      "",
-      ""
+      "contempt",
+      "discouraged"
     ],
     "needs": [
       "safety",
@@ -53,7 +53,7 @@
       "to be seen",
       "trust",
       "space",
-      ""
+      "participation"
     ]
   },
   "belittled": {
@@ -63,8 +63,8 @@
       "frustrated",
       "tense",
       "distressed",
-      "",
-      ""
+      "mistrustful",
+      "lonely"
     ],
     "needs": [
       "respect",
@@ -72,7 +72,7 @@
       "to be seen",
       "acknowledgement",
       "appreciation",
-      ""
+      "peace"
     ]
   },
   "betrayed": {
@@ -82,8 +82,8 @@
       "hurt",
       "disappointed",
       "enraged",
-      "",
-      ""
+      "indifferent",
+      "numb"
     ],
     "needs": [
       "trust",
@@ -91,7 +91,7 @@
       "honesty",
       "self-connection",
       "commitment",
-      "clarity"
+      "self-connection"
     ]
   },
   "blamed": {
@@ -101,8 +101,8 @@
       "scared",
       "confused",
       "antagonistic",
-      "bewildered",
-      "hurt"
+      "hurt",
+      "guarded"
     ],
     "needs": [
       "self-expression",
@@ -110,7 +110,7 @@
       "to be heard",
       "to be seen",
       "space",
-      ""
+      "hope"
     ]
   },
   "boxed in": {
@@ -120,16 +120,16 @@
       "thwarted",
       "scared",
       "anxious",
-      "",
-      ""
+      "burnt out",
+      "weary"
     ],
     "needs": [
       "autonomy",
       "choice",
       "freedom",
-      "",
-      "",
-      ""
+      "aliveness",
+      "sense of self",
+      "spontaneity"
     ]
   },
   "bullied": {
@@ -138,17 +138,17 @@
       "angry",
       "scared",
       "pressured",
-      "",
-      "",
-      ""
+      "triggered",
+      "frustrated",
+      "mistrustful"
     ],
     "needs": [
       "autonomy",
       "choice",
       "safety",
       "consideration",
-      "",
-      ""
+      "to be seen",
+      "sharing"
     ]
   },
   "cheated": {
@@ -157,9 +157,9 @@
       "angry",
       "resentful",
       "hurt",
-      "",
-      "",
-      ""
+      "perplexed",
+      "hesitant",
+      "low"
     ],
     "needs": [
       "honesty",
@@ -167,7 +167,7 @@
       "justice",
       "trust",
       "reliability",
-      ""
+      "creativity"
     ]
   },
   "coerced": {
@@ -185,8 +185,8 @@
       "choice",
       "freedom",
       "participation",
-      "",
-      ""
+      "to matter",
+      "transparency"
     ]
   },
   "cornered": {
@@ -196,16 +196,16 @@
       "scared",
       "anxious",
       "thwarted",
-      "",
-      ""
+      "contempt",
+      "nervous"
     ],
     "needs": [
       "autonomy",
       "freedom",
-      "",
-      "",
-      "",
-      ""
+      "aliveness",
+      "choice",
+      "to matter",
+      "acceptance"
     ]
   },
   "criticized": {
@@ -224,7 +224,7 @@
       "recognition",
       "accountability",
       "connection",
-      "self-connection"
+      "acceptance"
     ]
   },
   "discounted": {
@@ -234,8 +234,8 @@
       "hurt",
       "embarrassed",
       "frustrated",
-      "",
-      ""
+      "contempt",
+      "nervous"
     ],
     "needs": [
       "acknowledgement",
@@ -243,7 +243,7 @@
       "recognition",
       "respect",
       "to matter",
-      ""
+      "support"
     ]
   },
   "diminished": {
@@ -253,8 +253,8 @@
       "hurt",
       "embarrassed",
       "frustrated",
-      "",
-      ""
+      "contempt",
+      "discouraged"
     ],
     "needs": [
       "acknowledgement",
@@ -262,7 +262,7 @@
       "recognition",
       "respect",
       "to matter",
-      ""
+      "meaning"
     ]
   },
   "disliked": {
@@ -272,8 +272,8 @@
       "lonely",
       "hurt",
       "longing",
-      "",
-      ""
+      "mistrustful",
+      "lonely"
     ],
     "needs": [
       "appreciation",
@@ -281,45 +281,31 @@
       "understanding",
       "to be seen",
       "friendship",
-      "inclusion"
+      "to be seen"
     ]
   },
-  "distrusted": {
-    "initialFeeling": "distrusted",
-    "underlyingFeelings": [
-      "sad",
-      "frustrated",
-      "hurt",
-      "",
-      "",
-      ""
-    ],
-    "needs": [
-      "trust",
-      "honesty",
-      "understanding",
-      "",
-      "",
-      ""
-    ]
+  "#REF!": {
+    "initialFeeling": "#REF!",
+    "underlyingFeelings": "#REF!",
+    "needs": "#REF!"
   },
   "dumped on": {
     "initialFeeling": "dumped on",
     "underlyingFeelings": [
       "angry",
       "overwhelmed",
-      "",
-      "",
-      "",
-      ""
+      "anxious",
+      "antagonistic",
+      "hurt",
+      "guarded"
     ],
     "needs": [
       "respect",
       "consideration",
-      "",
-      "",
-      "",
-      ""
+      "understanding",
+      "to be seen",
+      "friendship",
+      "peace"
     ]
   },
   "harassed": {
@@ -329,16 +315,16 @@
       "frustrated",
       "pressured",
       "frightened",
-      "",
-      ""
+      "burnt out",
+      "weary"
     ],
     "needs": [
       "respect",
       "space",
       "consideration",
       "peace",
-      "",
-      ""
+      "aliveness",
+      "self-connection"
     ]
   },
   "ignored": {
@@ -348,8 +334,8 @@
       "sad",
       "scared",
       "hurt",
-      "embarrassed",
-      ""
+      "frustrated",
+      "mistrustful"
     ],
     "needs": [
       "belonging",
@@ -357,7 +343,7 @@
       "inclusion",
       "community",
       "participation",
-      ""
+      "hope"
     ]
   },
   "insulted": {
@@ -366,17 +352,17 @@
       "angry",
       "embarrased",
       "hurt",
-      "",
-      "",
-      ""
+      "numb",
+      "hesitant",
+      "low"
     ],
     "needs": [
       "respect",
       "consideration",
       "to be seen",
       "recognition",
-      "",
-      ""
+      "self-connection",
+      "spontaneity"
     ]
   },
   "interrupted": {

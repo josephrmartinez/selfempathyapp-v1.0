@@ -1,7 +1,5 @@
 import { loadHome } from "./home";
 
-
-
 // PAGE LOAD FUNCTION CREATES PAGE STRUCTURE FOR DOM MANIPULATION BY OTHER MODULES
 function pageLoad() {
     const content = document.getElementById('content');
@@ -103,9 +101,7 @@ export function empathySectionHeader(text){
 }
 
 
-
-
-// RETURNS CAROUSEL OF DIVS USED ON PAGE 3
+// !!! DEPRECATED !!! // RETURNS CAROUSEL OF DIVS USED ON PAGE 3 
 export function empathySectionDivCarousel(array, divClass){
     const gridCarousel = document.createElement('div');
     gridCarousel.classList.add('empathySectionDivCarousel');
@@ -131,29 +127,5 @@ export function empathySectionDivCarousel(array, divClass){
         })
         gridCarousel.appendChild(addGuess)
     }
-
-
-
     return gridCarousel
 }
-
-
-
-
-// RETURNS GRID OF DIVS USED ON PAGE 3
-// THIS FUNCTION IS DEPRECATED
-// export function empathySectionDivGrid(array, divClass){
-//     const gridDiv = document.createElement('div');
-//     gridDiv.classList.add('empathySectionDivGrid');
-    
-//     for (let i = 0; i < array.length; i++) {
-//         const empathyGuessDiv = document.createElement('div');
-//         empathyGuessDiv.classList.add('empathyGuessDiv')
-//         empathyGuessDiv.classList.add(`${divClass}`)
-//         empathyGuessDiv.addEventListener('click', () => {empathyGuessDiv.classList.toggle('selected')});
-//         empathyGuessDiv.innerText = array[i];
-//         gridDiv.appendChild(empathyGuessDiv)
-//     }
-
-//     return gridDiv
-// }

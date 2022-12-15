@@ -3,6 +3,7 @@ import { empathySectionHeader } from ".";
 import { loadComplaints } from "./complaints";
 import complaints from './complaints.json'
 import { buildSlider } from "./buildSlider";
+import { createCompleteButton } from "./completeButton";
 
 
 export function loadComplaintEmpathy(word){
@@ -18,14 +19,10 @@ function loadContainer(word){
     container.setAttribute('draggable', false);
     // CREATE INITIAL FEELINGS SECTION
     container.appendChild(empathySectionHeader("INITIAL FEELINGS"))
-    const initialFeelingSlider = buildSlider(complaints[word]["initialFeelings"], 'initialFeeling')
-    console.log(initialFeelingSlider)
-    container.appendChild(initialFeelingSlider)
+    container.appendChild(buildSlider(complaints[word]["initialFeelings"], 'initialFeeling'))
     container.appendChild(empathySectionHeader("UNDERLYING FEELINGS"))
     container.appendChild(buildSlider(complaints[word]["underlyingFeelings"], 'underlyingFeeling'))
     container.appendChild(empathySectionHeader("NEEDS"))
     container.appendChild(buildSlider(complaints[word]["needs"], 'need'));
-    const completeButton = document.createElement('button')
-    completeButton.innerText = "I'm complete"
-    container.appendChild(completeButton)
+    container.appendChild(createCompleteButton())
 }

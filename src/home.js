@@ -14,7 +14,7 @@ function loadNav(){
 
     const sectionTitle = document.createElement('div');
     sectionTitle.classList.add('sectionTitle')
-    sectionTitle.innerText = "self-empathy"
+    sectionTitle.innerText = ""
     navHead.appendChild(sectionTitle);
     const infoButton = document.createElement('img');
     infoButton.src = "./icons/info-circle.svg"
@@ -33,7 +33,7 @@ function loadContainer(){
     // add intro text
     const introText = document.createElement('div')
     introText.classList.add('introText')
-    introText.innerText = "Observe what you\nare experiencing.\n\nGet in touch with your\nunderlying needs."
+    introText.innerText = "self-empathy process: start with a\ncomplaint or feeling to connect with\nyour underlying feelings and needs."
     container.appendChild(introText)
 
     // add complaint section button
@@ -44,7 +44,7 @@ function loadContainer(){
     startTextComplaint.innerText = "start with a complaint"
     const complaintQuote = document.createElement('div')
     complaintQuote.classList.add('exampleQuote')
-    complaintQuote.innerText = '\"They\'re being...\"'
+    complaintQuote.innerText = '"They\'re being..."'
     complaintSectionButton.appendChild(startTextComplaint)
     complaintSectionButton.appendChild(complaintQuote)
     complaintSectionButton.addEventListener('click', loadComplaints)
@@ -58,7 +58,7 @@ function loadContainer(){
     startTextFeeling.innerText = "start with a feeling"
     const feelingQuote = document.createElement('div')
     feelingQuote.classList.add('exampleQuote')
-    feelingQuote.innerText = '\"I\'m feeling...\"'
+    feelingQuote.innerText = '"I\'m feeling..."'
     feelingSectionButton.appendChild(startTextFeeling)
     feelingSectionButton.appendChild(feelingQuote)
     feelingSectionButton.addEventListener('click', loadFeelings)

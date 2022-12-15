@@ -1,9 +1,10 @@
 // import { loadHome } from "./home";
 import { loadEmpathyNav } from ".";
 import { empathySectionHeader } from ".";
-import { empathySectionDivCarousel } from ".";
+import { buildSlider } from "./buildSlider";
 import { loadFeelings } from "./feelings";
 import feelings from './feelings.json'
+import { createCompleteButton } from "./completeButton";
 
 
 export function loadFeelingEmpathy(word){
@@ -19,8 +20,9 @@ function loadContainer(word){
     container.innerHTML = ''
     // LOAD UNDERLYING FEELINGS SECTION
     container.appendChild(empathySectionHeader("UNDERLYING FEELINGS"))
-    container.appendChild(empathySectionDivCarousel(feelings[word]["underlyingFeelings"], 'underlyingFeeling'))
+    container.appendChild(buildSlider(feelings[word]["underlyingFeelings"], 'underlyingFeeling'))
     container.appendChild(empathySectionHeader("NEEDS"))
-    container.appendChild(empathySectionDivCarousel(feelings[word]["needs"], 'need'))
+    container.appendChild(buildSlider(feelings[word]["needs"], 'need'))
+    container.appendChild(createCompleteButton())
 }
 

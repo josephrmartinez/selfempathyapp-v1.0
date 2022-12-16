@@ -284,11 +284,6 @@
       "to be seen"
     ]
   },
-  "#REF!": {
-    "initialFeeling": "#REF!",
-    "underlyingFeelings": "#REF!",
-    "needs": "#REF!"
-  },
   "dumped on": {
     "initialFeeling": "dumped on",
     "underlyingFeelings": [

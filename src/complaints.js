@@ -9,6 +9,6 @@ export function loadComplaints(){
             complaintList.push(key)
         }
 
-    loadListNav('"They\'re being..."')
+    loadListNav('They\'re being...')
     loadListContainer(complaintList, 'complaint', loadComplaintEmpathy)
 }

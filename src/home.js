@@ -42,7 +42,7 @@ function loadContainer(){
     // startTextComplaint.innerText = "start with a complaint"
     const complaintQuote = document.createElement('div')
     complaintQuote.classList.add('exampleQuote')
-    complaintQuote.innerText = '"They\'re being..."'
+    complaintQuote.innerText = 'They\'re being...'
     // complaintSectionButton.appendChild(startTextComplaint)
     complaintSectionButton.appendChild(complaintQuote)
     complaintSectionButton.addEventListener('click', loadComplaints)
@@ -58,7 +58,7 @@ function loadContainer(){
     // startTextFeeling.innerText = "start with a feeling"
     const feelingQuote = document.createElement('div')
     feelingQuote.classList.add('exampleQuote')
-    feelingQuote.innerText = '"I\'m feeling..."'
+    feelingQuote.innerText = 'I\'m feeling...'
     // feelingSectionButton.appendChild(startTextFeeling)
     feelingSectionButton.appendChild(feelingQuote)
     feelingSectionButton.addEventListener('click', loadFeelings)

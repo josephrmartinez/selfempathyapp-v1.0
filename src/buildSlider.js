@@ -104,7 +104,7 @@ export function buildSlider(slidesArray, divClass) {
 
     function setPositionByIndex() {
         // const wrapper = document.querySelector('.wrapper')
-        currentTranslate = currentIndex * -170
+        currentTranslate = currentIndex * -200
         prevTranslate = currentTranslate
         setSliderPosition() 
     }

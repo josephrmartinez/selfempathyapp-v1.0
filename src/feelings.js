@@ -9,6 +9,6 @@ export function loadFeelings() {
         feelingList.push(key)
     }
 
-    loadListNav('"I\'m feeling..."');
+    loadListNav('I\'m feeling...');
     loadListContainer(feelingList, 'feeling', loadFeelingEmpathy)
 }

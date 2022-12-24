@@ -30,15 +30,15 @@ export function loadListNav(headerText){
     const navHead = document.getElementById('navhead')
     navHead.innerHTML = ''
     navHead.classList.add('subsection')
-    let searchArea = document.createElement('img');
-    searchArea.src = './icons/search.svg'
+    // let searchArea = document.createElement('img');
+    // searchArea.src = './icons/search.svg'
     const sectionTitle = document.createElement('div');
     sectionTitle.classList.add('sectionTitle')
     sectionTitle.innerText = headerText
     let homeButton = document.createElement('img')
     homeButton.src = "./icons/house.svg"
     homeButton.addEventListener('click', loadHome)
-    navHead.appendChild(searchArea);
+    // navHead.appendChild(searchArea);
     navHead.appendChild(sectionTitle);
     navHead.appendChild(homeButton);
 
@@ -64,6 +64,14 @@ export function loadListContainer(list, listClass, listFunction){
         listDiv.addEventListener('click', itemPressed)
         container.appendChild(listDiv)
     }
+    // ADD + DIV WITH CLICK EVENT
+    let plusDiv = document.createElement('div');
+    plusDiv.classList.add('rectangle', listClass);
+    plusDiv.innerText = '+';
+    plusDiv.addEventListener('click', () => {
+        prompt("Suggest another word:")
+    })
+    container.appendChild(plusDiv)
 
     return container
 }

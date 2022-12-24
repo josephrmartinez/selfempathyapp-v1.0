@@ -33,33 +33,25 @@ function loadContainer(){
     container.classList.add('fullHeight')
 
     // add complaint section button
-    container.appendChild(sectionHeader("START WITH A COMPLAINT"))
+    // container.appendChild(sectionHeader("START WITH A COMPLAINT"))
     const complaintSectionButton = document.createElement('div');
     complaintSectionButton.classList.add('sectionButton')
     complaintSectionButton.classList.add('complaint')
-    // const startTextComplaint = document.createElement('div')
-    // startTextComplaint.classList.add('startWith')
-    // startTextComplaint.innerText = "start with a complaint"
     const complaintQuote = document.createElement('div')
     complaintQuote.classList.add('exampleQuote')
     complaintQuote.innerText = 'They\'re being...'
-    // complaintSectionButton.appendChild(startTextComplaint)
     complaintSectionButton.appendChild(complaintQuote)
     complaintSectionButton.addEventListener('click', loadComplaints)
     container.appendChild(complaintSectionButton)
 
     // add feeling section button
-    container.appendChild(sectionHeader("START WITH A FEELING"))
+    // container.appendChild(sectionHeader("START WITH A FEELING"))
     const feelingSectionButton = document.createElement('div');
     feelingSectionButton.classList.add('sectionButton')
     feelingSectionButton.classList.add('feeling')
-    // const startTextFeeling = document.createElement('div')
-    // startTextFeeling.classList.add('startWith')
-    // startTextFeeling.innerText = "start with a feeling"
     const feelingQuote = document.createElement('div')
     feelingQuote.classList.add('exampleQuote')
     feelingQuote.innerText = 'I\'m feeling...'
-    // feelingSectionButton.appendChild(startTextFeeling)
     feelingSectionButton.appendChild(feelingQuote)
     feelingSectionButton.addEventListener('click', loadFeelings)
     container.appendChild(feelingSectionButton)

@@ -32,8 +32,8 @@
       "caring",
       "nurturing",
       "support",
-      "emotional well-being",
-      "physical well-being",
+      "space",
+      "safety",
       "consideration"
     ]
   },
@@ -70,7 +70,7 @@
       "respect",
       "autonomy",
       "to be seen",
-      "acknowledgement",
+      "acceptance",
       "appreciation",
       "peace"
     ]
@@ -89,7 +89,7 @@
       "trust",
       "dependability",
       "honesty",
-      "self-connection",
+      "to be seen",
       "commitment",
       "self-connection"
     ]
@@ -220,7 +220,7 @@
     ],
     "needs": [
       "understanding",
-      "acknowledgement",
+      "appreciation",
       "recognition",
       "accountability",
       "connection",
@@ -238,7 +238,7 @@
       "nervous"
     ],
     "needs": [
-      "acknowledgement",
+      "acceptance",
       "inclusion",
       "recognition",
       "respect",
@@ -257,7 +257,7 @@
       "discouraged"
     ],
     "needs": [
-      "acknowledgement",
+      "acceptance",
       "inclusion",
       "recognition",
       "respect",
@@ -345,7 +345,7 @@
     "initialFeeling": "insulted",
     "underlyingFeelings": [
       "angry",
-      "embarrased",
+      "embarrassed",
       "hurt",
       "numb",
       "hesitant",
@@ -782,7 +782,7 @@
     "initialFeeling": "tricked",
     "underlyingFeelings": [
       "angry",
-      "embarrased",
+      "embarrassed",
       "resentful",
       "weary",
       "hurt",

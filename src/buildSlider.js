@@ -125,6 +125,8 @@ export function buildSlider(slidesArray, divClass) {
         // buildSlider(slidesArray, divClass)    
     })
 
+    slider.firstChild.classList.remove('outofrange')
+
     wrapper.appendChild(slider)
     return wrapper
 

@@ -50,6 +50,7 @@ export function loadListNav(headerText){
 export function loadListContainer(list, listClass, listFunction){
     // CLEAR CONTAINER
     const container = document.getElementById('container')
+    container.classList.remove('fullHeight')
     container.innerHTML = ''
     
     const itemPressed = (e) => {
@@ -92,40 +93,11 @@ export function loadEmpathyNav(word, backFunction){
 
 
 // RETURNS A HEADER TEXT DIV USED ON PAGE 3
-export function empathySectionHeader(text){
-    const initialFeelingsHeader = document.createElement('div')
-    initialFeelingsHeader.classList.add('empathySectionHeader')
-    initialFeelingsHeader.innerText = text
+export function sectionHeader(text){
+    const header = document.createElement('div')
+    header.classList.add('sectionHeader')
+    header.innerText = text
     
-    return initialFeelingsHeader
+    return header
 }
 
-
-// !!! DEPRECATED !!! // RETURNS CAROUSEL OF DIVS USED ON PAGE 3 
-export function empathySectionDivCarousel(array, divClass){
-    const gridCarousel = document.createElement('div');
-    gridCarousel.classList.add('empathySectionDivCarousel');
-    buildCarousel()
-
-    function buildCarousel() {
-        gridCarousel.innerHTML = '';
-        for (let i = 0; i < array.length; i++) {
-            const empathyGuessDivCarousel = document.createElement('div');
-            empathyGuessDivCarousel.classList.add('empathyGuessDivCarousel')
-            empathyGuessDivCarousel.classList.add(`${divClass}`)
-            empathyGuessDivCarousel.innerText = array[i];
-            gridCarousel.appendChild(empathyGuessDivCarousel)
-        }
-        const addGuess = document.createElement('div');
-        addGuess.classList.add('empathyGuessDivCarousel')
-        addGuess.classList.add(`${divClass}`)
-        addGuess.innerText = "+";
-        addGuess.addEventListener('click', e => {
-            let input = prompt("Use another term: ")
-            array.push(input)
-            buildCarousel()
-        })
-        gridCarousel.appendChild(addGuess)
-    }
-    return gridCarousel
-}

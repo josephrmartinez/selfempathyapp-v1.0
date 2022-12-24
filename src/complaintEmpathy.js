@@ -1,5 +1,5 @@
 import { loadEmpathyNav } from ".";
-import { empathySectionHeader } from ".";
+import { sectionHeader } from ".";
 import { loadComplaints } from "./complaints";
 import complaints from './complaints.json'
 import { buildSlider } from "./buildSlider";
@@ -18,11 +18,11 @@ function loadContainer(word){
     container.innerHTML = ''
     container.setAttribute('draggable', false);
     // CREATE INITIAL FEELINGS SECTION
-    container.appendChild(empathySectionHeader("INITIAL FEELINGS"))
+    container.appendChild(sectionHeader("INITIAL FEELINGS"))
     container.appendChild(buildSlider(complaints[word]["initialFeelings"], 'initialFeeling'))
-    container.appendChild(empathySectionHeader("UNDERLYING FEELINGS"))
+    container.appendChild(sectionHeader("UNDERLYING FEELINGS"))
     container.appendChild(buildSlider(complaints[word]["underlyingFeelings"], 'underlyingFeeling'))
-    container.appendChild(empathySectionHeader("NEEDS"))
+    container.appendChild(sectionHeader("NEEDS"))
     container.appendChild(buildSlider(complaints[word]["needs"], 'need'));
     container.appendChild(createCompleteButton())
 }

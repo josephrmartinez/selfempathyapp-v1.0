@@ -1,6 +1,5 @@
 import { loadFeelings } from "./feelings";
 import { loadComplaints } from "./complaints";
-import { sectionHeader } from ".";
 
 export function loadHome() {
     loadNav();
@@ -15,7 +14,7 @@ function loadNav(){
 
     const sectionTitle = document.createElement('div');
     sectionTitle.classList.add('sectionTitle')
-    sectionTitle.innerText = "self-empathy"
+    sectionTitle.innerText = " "
     navHead.appendChild(sectionTitle);
     const infoButton = document.createElement('img');
     infoButton.src = "./icons/info-circle.svg"
@@ -30,7 +29,7 @@ function loadContainer(){
     const container = document.getElementById('container');
     // clear container
     container.innerHTML = ''
-    container.classList.add('fullHeight')
+    container.classList.remove('scroll')
 
     // add complaint section button
     // container.appendChild(sectionHeader("START WITH A COMPLAINT"))

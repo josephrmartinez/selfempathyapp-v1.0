@@ -50,8 +50,9 @@ export function loadListNav(headerText){
 export function loadListContainer(list, listClass, listFunction){
     // CLEAR CONTAINER
     const container = document.getElementById('container')
-    container.classList.remove('fullHeight')
     container.innerHTML = ''
+    container.classList.add('scroll')
+
     
     const itemPressed = (e) => {
         listFunction(e.target.innerText)

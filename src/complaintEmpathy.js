@@ -16,6 +16,7 @@ function loadContainer(word){
     // CLEAR CONTAINER  
     const container = document.getElementById('container')
     container.innerHTML = ''
+    container.classList.remove('scroll');
     container.setAttribute('draggable', false);
     // CREATE INITIAL FEELINGS SECTION
     container.appendChild(sectionHeader("INITIAL FEELINGS"))

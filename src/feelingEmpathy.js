@@ -18,6 +18,7 @@ function loadContainer(word){
     // CLEAR CONTAINER  
     const container = document.getElementById('container')
     container.innerHTML = ''
+    container.classList.remove('scroll');
     // LOAD UNDERLYING FEELINGS SECTION
     container.appendChild(sectionHeader("UNDERLYING FEELINGS"))
     container.appendChild(buildSlider(feelings[word]["underlyingFeelings"], 'underlyingFeeling'))

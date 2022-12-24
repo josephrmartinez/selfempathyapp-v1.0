@@ -170,13 +170,17 @@ button:active{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 0;
+    
+}
+
+.container.scroll{
+    height: auto;
     margin-top: 80px;
 }
 
-.container.fullHeight{
-    height: calc(100vh - 100px);
-    justify-content: center;
-}
 
 /* PAGE 2: FEELING AND COMPLAINT LISTS */
 
@@ -227,11 +231,11 @@ button:active{
 
 /* NEW STYLING FOR CAROUSEL UX */
 .wrapper {
-    margin: auto;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
     font-family: 'Laila';
-    height: 120px;
+    height: 90px;
     width: 100vw;
     overflow: hidden;
 }

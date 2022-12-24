@@ -111,7 +111,7 @@ img{
 
 
 .sectionButton{
-    width: 216px;
+    width: 220px;
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -137,7 +137,7 @@ img{
 
 
 .sectionButton .exampleQuote{
-    width: 200px;
+    width: 100%;
     font-family: 'Laila';
     font-style: normal;
     font-weight: 400;
@@ -181,7 +181,7 @@ button:active{
 /* PAGE 2: FEELING AND COMPLAINT LISTS */
 
 .rectangle{
-    width: 216px;
+    width: 180px;
     height: 80px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 5px;
@@ -206,6 +206,10 @@ button:active{
 
 .rectangle.feeling {
     background: var(--feeling-color);
+}
+
+.rectangle:last-child{
+    margin-bottom: 30px;
 }
 
 
@@ -237,10 +241,7 @@ button:active{
 .slider-container {
     height: 80px;
     display: inline-flex;
-    /* gap: 20px; */
-    margin-left: calc(50vw - 85px);
-    /* padding-left: 10px; */
-    /* margin-right: 50px; */
+    margin-left: calc(50vw - 100px);
     transform: translateX(0);
     transition: transform 0.3s ease-out;
     cursor: grab;
@@ -256,7 +257,7 @@ button:active{
     /* scroll-snap-align: center; */
     margin-left: 10px;
     margin-right: 10px;
-    width: 150px;
+    width: 180px;
     height: 80px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 5px;
